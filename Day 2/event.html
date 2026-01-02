@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Annual Music Fest</title>
+</head>
+
+<body bgcolor = #83EEFF>
+<hr color = black>
+<h1>Annual Music Event 2026</h1>
+<hr color = black>
+<h2>Event Schedule</h2>
+<table border="1" cellpadding="10" cellspacing="0">
+<thead>
+<tr>
+<th>Date</th>
+<th>Time</th>
+<th>Activity</th>
+<th>Venue</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>9th January</td>
+<td>06:00 PM</td>
+<td>Opening Ceremony</td>
+<td>Main Auditorium</td>
+</tr>
+<tr>
+<td>9th January</td>
+<td>08:00 PM</td>
+<td>Raaga Club Performance</td>
+<td>Football Ground</td>
+</tr>
+<tr>
+<td>10th January</td>
+<td>06:00 PM</td>
+<td>Singing Competition</td>
+<td>Main Auditorium</td>
+</tr>
+<tr>
+<td>10th January</td>
+<td>08:00 PM</td>
+<td>Music Composition Competition</td>
+<td>Main Auditorium</td>
+</tr>
+<tr>
+<td>11th January</td>
+<td>06:00 PM</td>
+<td>Award Distribution Ceremony</td>
+<td>Main Auditorium</td>
+</tr>
+<tr>
+<td>11th January</td>
+<td>07:30 PM</td>
+<td>EDM Concert</td>
+<td>Football Ground</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+<hr color = black>
+<br>
+<h2>Event Registration Form</h2>
+<form action="submit.html" method="post">
+<label for="name">Full Name:</label>
+<br>
+<input type="text" id="name" name="name" required>
+<br><br>
+<label for="email">Email Address:</label><br>
+<input type="email" id="email" name="email" required>
+<br><br>
+<label for="age">Age:</label><br>
+<input type="number" id="age" name="age" min="18">
+<br><br>
+<label for="date">Event Date:</label><br>
+<input type="date" id="date" name="event date"><br><br>
+<p>Are you going to attend the concert ?</p>
+<input type="radio" id="yes" name="option" value="YES">
+<label for="yes">YES</label><br>
+<input type="radio" id="no" name="option" value="NO">
+<label for="yes">NO</label>
+<br><br>
+<p>Ticket Type:
+<br>
+(only if attending the concert)</p>
+<input type="radio" id="standard" name="ticket" value="Standard">
+<label for="standard">Standard</label><br>
+<input type="radio" id="premium" name="ticket" value="Premium">
+<label for="premium">Premium</label><br>
+<input type="radio" id="vip" name="ticket" value="VIP">
+<label for="vip">VIP</label>
+<br><br>
+<p>Genre Prefernce</p>
+<input type="checkbox" id="web" name="workshop" value="Web Development">
+<label for="web">Indie</label>
+<br>
+<input type="checkbox" id="ai" name="workshop" value="Artificial Intelligence">
+<label for="ai">Hip Hop</label><br>
+<input type="checkbox" id="design" name="workshop" value="UI/UX Design">
+<label for="design">Classical Music</label>
+<br><br>
+<label for="comments">Additional Comments:</label><br>
+<textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+<button type="submit">Register</button>
+</form>
+<footer>
+<p>© 2026 All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
