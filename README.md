@@ -13,3 +13,6 @@ Roll No. 25118032
 ## Day 3
 ![Day 3 - 1](Screenshots/day3-1.png)
 ![Day 3 - 2](Screenshots/day3-2.png)
+
+## Day 4
+![Day4](Screenshots/day4.png)
